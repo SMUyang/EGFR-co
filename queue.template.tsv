@@ -1,0 +1,7 @@
+sample_id	pair_id	extraction_method	cohort	disease_group	bam_path	endmer_csv	insert_size_txt
+P01_cf	P01	Single	Discovery	Lung_Cancer	data/bam/P01_cf.recal.bam	data/endmer/P01_cf.recal.end_mer.csv	data/pb_qc/P01_cf.insert_size.txt
+P01_ec	P01	Co-extraction	Discovery	Lung_Cancer	data/bam/P01_ec.recal.bam	data/endmer/P01_ec.recal.end_mer.csv	data/pb_qc/P01_ec.insert_size.txt
+P02_cf	P02	Single	Discovery	Lung_Cancer	data/bam/P02_cf.recal.bam	data/endmer/P02_cf.recal.end_mer.csv	data/pb_qc/P02_cf.insert_size.txt
+P02_ec	P02	Co-extraction	Discovery	Lung_Cancer	data/bam/P02_ec.recal.bam	data/endmer/P02_ec.recal.end_mer.csv	data/pb_qc/P02_ec.insert_size.txt
+P03_cf	P03	Single	Validation	Control	data/bam/P03_cf.recal.bam	data/endmer/P03_cf.recal.end_mer.csv	data/pb_qc/P03_cf.insert_size.txt
+P03_ec	P03	Co-extraction	Validation	Control	data/bam/P03_ec.recal.bam	data/endmer/P03_ec.recal.end_mer.csv	data/pb_qc/P03_ec.insert_size.txt

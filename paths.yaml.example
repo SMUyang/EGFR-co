@@ -1,0 +1,24 @@
+# Replication path configuration template for EGFR-co.
+# Copy this file to paths.yaml and configure paths for your local environment.
+# Unset keys fallback to default relative paths in data/ and outputs/.
+# Keys can also be overridden using environment variables (e.g., EGFR_CO_<KEY>).
+# Please use absolute paths or paths relative to repository root.
+
+# ── End-motif frequency data (Two cohorts: Discovery and Validation) ──
+# Leave blank to use default data/ paths.
+Discovery:             # e.g., /path/to/data/endmer/Discovery (Discovery cohort)
+Validation_dir:        # e.g., /path/to/data/endmer/Validation (Validation cohort)
+endmer_manifest:       # e.g., /path/to/data/endmer/manifest.json (optional)
+
+# ── Quality control & insert size metrics (Picard / Parabricks for Panels B, C) ──
+pb_qc_dir:             # e.g., /path/to/data/pb_qc
+picard_base:           # e.g., /path/to/data/picard
+
+# ── Genome-wide fragmentomics aggregated statistics (Panel H) ──
+frag_v2_fSinal_dir:    # e.g., /path/to/data/fragmentomics_genome_wide_v2/final
+
+# ── Epigenomic feature annotations (BED files for Panel H) ──
+features_root:         # e.g., /path/to/data/features
+
+# ── Output directory (defaults to repository outputs/ directory) ──
+# out_root: /path/to/custom_outputs

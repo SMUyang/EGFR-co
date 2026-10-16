@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.DS_Store
+paths.yaml
+data/*
+!data/.gitkeep
+outputs/*
+!outputs/.gitkeep
